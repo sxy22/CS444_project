@@ -5,6 +5,7 @@ import torch.nn.functional as F
 import math, copy, time
 from torch.autograd import Variable
 
+
 def attention(query, key, value, mask=None, dropout=None):
     """
     Compute 'Scaled Dot Product Attention
